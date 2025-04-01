@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
   const mint = req.body;
 
   const payload = {
-    client_id: mint.wallet || 'debug-user',
+    client_id: '114874555.1742905284',
     events: [
       {
         name: 'pyramid_minted',
